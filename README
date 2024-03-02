@@ -1,0 +1,6 @@
+Barbulescu Khristine-Andreea, 342C3
+
+Modificari stub server:
+resourcemanager_svc.c - am modificat stub-ul pentru ca am avut nevoie sa citesc din fisierele primite ca intrare
+                      - am avut nevoie de 4 variabile externe(lista de users, lista de resurse, lista de permisiuni
+                      si numarul de operatii) pe care le am folosit in server.c

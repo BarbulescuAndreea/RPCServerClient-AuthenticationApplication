@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "database.h": "c",
+        "server.h": "c",
+        "stdio.h": "c",
+        "inserttoken.h": "c",
+        "allocator_mem.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}
