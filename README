@@ -1,6 +1,5 @@
-Barbulescu Khristine-Andreea, 342C3
+This assignment entails the development of a client/server application using Remote Procedure Call (RPC) to authorize various Read, Insert, Modify, Delete, and Execute (RIMDX) operations on a file system. The application also incorporates OAuth authorization model and involves writing specifications for a simple authorization and resource management application. It requires knowledge of programming in C/C++, including structures, functions, file handling (binary/text), as well as familiarity with RPCGEN utility and gcc compiler.
 
-Modificari stub server:
-resourcemanager_svc.c - am modificat stub-ul pentru ca am avut nevoie sa citesc din fisierele primite ca intrare
-                      - am avut nevoie de 4 variabile externe(lista de users, lista de resurse, lista de permisiuni
-                      si numarul de operatii) pe care le am folosit in server.c
+The proposed solution involves implementing a client/server solution for accessing resources on a file server using RPC protocol. In this solution, the client represents a third-party application used by the end-user to manage files on the server. The client is responsible for authorizing operations delegated by the user.
+
+The server has three main functions: client authorization, resource management, and approval component for authorization tokens from the end-user. The server provides clients with access tokens that authorize operations performed on files stored on the server.
